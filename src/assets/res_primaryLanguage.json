@@ -94,7 +94,7 @@
       ]
     },
     {
-      "title": "3D Objects Viewer",
+      "title": "3D Object Viewer",
       "startDate": "2015",
       "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
       "images": [
