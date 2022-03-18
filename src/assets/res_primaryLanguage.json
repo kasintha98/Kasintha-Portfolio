@@ -11,26 +11,65 @@
   },
   "projects": [
     {
-      "title": "Animal Shelter",
-      "startDate": "2020",
-      "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+      "title": "Restaurant Management System",
+      "startDate": "2021",
+      "description": "A fully functional Restaurant Management System for Burger Freakz Restaurant. This system mainly has two sub systems as client app and admin app. Client app is used by the customers and admin app is used by restaurant's employees. As main functionalities of the client app includes online food ordering, order status tracking, feedback and ratings, profile management and bills management. As main functionalities in the admin app, it includes orders management, customers management, employees management, stocks management, food products and categories management and Power Bi reports generation.",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/burger-res/pic (1).png",
+        "images/portfolio/burger-res/pic (3).png",
+        "images/portfolio/burger-res/pic (4).png",
+        "images/portfolio/burger-res/pic (5).png",
+        "images/portfolio/burger-res/pic (6).png",
+        "images/portfolio/burger-res/pic (7).png",
+        "images/portfolio/burger-res/pic (8).png",
+        "images/portfolio/burger-res/pic (9).png",
+        "images/portfolio/burger-res/pic (10).png",
+        "images/portfolio/burger-res/pic (11).png",
+        "images/portfolio/burger-res/pic (12).png",
+        "images/portfolio/burger-res/pic (13).png",
+        "images/portfolio/burger-res/pic (14).png",
+        "images/portfolio/burger-res/pic (15).png",
+        "images/portfolio/burger-res/pic (16).png",
+        "images/portfolio/burger-res/pic (17).png",
+        "images/portfolio/burger-res/pic (18).png",
+        "images/portfolio/burger-res/pic (19).png",
+        "images/portfolio/burger-res/pic (20).png",
+        "images/portfolio/burger-res/pic (21).png",
+        "images/portfolio/burger-res/pic (22).png",
+        "images/portfolio/burger-res/pic (23).png",
+        "images/portfolio/burger-res/pic (24).png",
+        "images/portfolio/burger-res/pic (25).png",
+        "images/portfolio/burger-res/pic (26).png",
+        "images/portfolio/burger-res/pic (27).png",
+        "images/portfolio/burger-res/pic (28).png",
+        "images/portfolio/burger-res/pic (29).png",
+        "images/portfolio/burger-res/pic (30).png",
+        "images/portfolio/burger-res/pic (31).png",
+        "images/portfolio/burger-res/pic (33).png",
+        "images/portfolio/burger-res/pic (33).png",
+        "images/portfolio/burger-res/pic (34).png",
+        "images/portfolio/burger-res/pic (35).png",
+        "images/portfolio/burger-res/pic (36).png",
+        "images/portfolio/burger-res/pic (37).png",
+        "images/portfolio/burger-res/pic (38).png"
       ],
-      "url": "",
+      "url": "https://github.com/kasintha98/Burger-Freakz-Restaurent-Web-System-MERN.git",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-react-original",
+          "name": "React"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-nodejs-plain-wordmark",
+          "name": "Node JS"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-express-original-wordmark",
+          "name": "Express JS"
+        },
+        {
+          "class": "devicon-mongodb-plain-wordmark",
+          "name": "MongoDB"
         }
       ]
     },
@@ -81,7 +120,7 @@
   ],
   "experience": [
     {
-      "company": "Freelance - Upwork",
+      "company": "Freelance - Upwork/ Fiverr",
       "title": "Full Stack Developer",
       "years": "4.2021 - present",
       "mainTech": ["React"],

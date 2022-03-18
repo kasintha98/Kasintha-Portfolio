@@ -1,7 +1,12 @@
 {
   "basic_info": {
     "name": "Kasintha Kalhara",
-    "titles": ["Front-End Developer", "Full Stack Developer"],
+    "titles": [
+      "Software Engineer",
+      "Front-End Developer",
+      "Full Stack Developer",
+      "Web Developer"
+    ],
     "social": [
       {
         "name": "github",
