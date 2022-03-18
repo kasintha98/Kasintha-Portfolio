@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -7,15 +6,17 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
+import profileData from "./assets/portfolio_shared_data.json";
+import res_primaryLanguage from "./assets/res_primaryLanguage.json";
+import res_secondaryLanguage from "./assets/res_secondaryLanguage.json";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
       foo: "bar",
       resumeData: {},
-      sharedData: {},
+      sharedData: profileData,
     };
   }
 
@@ -24,8 +25,8 @@ class App extends Component {
     document.documentElement.lang = pickedLanguage;
     var resumePath =
       document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+        ? `res_primaryLanguage`
+        : `res_secondaryLanguage`;
     this.loadResumeFromPath(resumePath);
   }
 
@@ -43,7 +44,6 @@ class App extends Component {
   }
 
   componentDidMount() {
-    this.loadSharedData();
     this.applyPickedLanguage(
       window.$primaryLanguage,
       window.$secondaryLanguageIconId
@@ -51,32 +51,9 @@ class App extends Component {
   }
 
   loadResumeFromPath(path) {
-    $.ajax({
-      url: path,
-      dataType: "json",
-      cache: false,
-      success: function (data) {
-        this.setState({ resumeData: data });
-      }.bind(this),
-      error: function (xhr, status, err) {
-        alert(err);
-      },
-    });
-  }
-
-  loadSharedData() {
-    $.ajax({
-      url: `portfolio_shared_data.json`,
-      dataType: "json",
-      cache: false,
-      success: function (data) {
-        this.setState({ sharedData: data });
-        document.title = `${this.state.sharedData.basic_info.name}`;
-      }.bind(this),
-      error: function (xhr, status, err) {
-        alert(err);
-      },
-    });
+    path === "res_primaryLanguage"
+      ? this.setState({ resumeData: res_primaryLanguage })
+      : this.setState({ resumeData: res_secondaryLanguage });
   }
 
   render() {

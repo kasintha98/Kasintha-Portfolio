@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-import { Icon } from "@iconify/react";
-import reactIcon from "@iconify/icons-logos/react";
-import expressIcon from "@iconify/icons-logos/express";
-import mongoIcon from "@iconify/icons-logos/mongodb";
-import nodeIcon from "@iconify/icons-logos/nodejs";
 
 class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
-      var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var profilepic = require(`../assets/images/${this.props.sharedBasicInfo.image}`);
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
