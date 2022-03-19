@@ -74,46 +74,74 @@
       ]
     },
     {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+      "title": "Email and Newsletter Automation System",
+      "startDate": "2022",
+      "description": "Email and Newsletter automation tool build for a German client to manage their customers and newsletters. As main functionalities this includes newsletter design with Stripo, newsletter schedule, newsletter workflow management, newsletter email status tracking, and manage newsletter subscribers.",
       "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
+        "images/portfolio/email-saas/pic (1).png",
+        "images/portfolio/email-saas/pic (2).png",
+        "images/portfolio/email-saas/pic (3).png",
+        "images/portfolio/email-saas/pic (4).png",
+        "images/portfolio/email-saas/pic (5).png",
+        "images/portfolio/email-saas/pic (6).png",
+        "images/portfolio/email-saas/pic (7).png",
+        "images/portfolio/email-saas/pic (8).png",
+        "images/portfolio/email-saas/pic (9).png",
+        "images/portfolio/email-saas/pic (10).png"
       ],
-      "url": "https://github.com",
+      "url": "https://email-saas-tool.herokuapp.com",
       "technologies": [
         {
           "class": "devicon-react-original",
           "name": "React"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
+          "class": "devicon-nodejs-plain-wordmark",
+          "name": "Node JS"
+        },
+        {
+          "class": "devicon-express-original-wordmark",
+          "name": "Express JS"
+        },
+        {
+          "class": "devicon-mongodb-plain-wordmark",
+          "name": "MongoDB"
         }
       ]
     },
     {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      "title": "E-Commerce Business System",
+      "startDate": "2021",
+      "description": "An E-Commerce Business System for a German client. This system includes client's business details, products and jobs. As  main functionalities this system includes customer register/login, app store, product purchase, contact and search.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
+        "images/portfolio/flumina/pic (1).png",
+        "images/portfolio/flumina/pic (2).png",
+        "images/portfolio/flumina/pic (3).png",
+        "images/portfolio/flumina/pic (4).png",
+        "images/portfolio/flumina/pic (5).png",
+        "images/portfolio/flumina/pic (6).png"
       ],
-      "url": "https://github.com",
+      "url": "https://flumina.de",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "class": "devicon-css3-plain",
+          "name": "CSS 3"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
         }
       ]
     }
