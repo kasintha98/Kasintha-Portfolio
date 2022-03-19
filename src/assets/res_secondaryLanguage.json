@@ -1,116 +1,172 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Hallo",
+    "description": "👋 Ich bin Kasintha Kalhara, eine Technik-Enthusiastin, die sich gerne mit neuen Technologien vertraut macht und eifrig nach einer Umgebung sucht, in der sie der Organisation und sich selbst durch Engagement zugute kommt. Ich interessiere mich für Software Engineering, Full Stack Development und Frontend Development. Danke 💜",
+    "section_name": {
+      "about": "Über mich",
+      "projects": "Projekte",
+      "skills": "Fähigkeiten",
+      "experience": "Erfahrung"
+    }
+  },
+  "projects": [
+    {
+      "title": "Restaurant Management System",
+      "startDate": "2021",
+      "description": "Ein voll funktionsfähiges Restaurant-Management-System für das Burger Freakz Restaurant. Dieses System hat hauptsächlich zwei Subsysteme als Client-App und Admin-App. Die Client-App wird von den Kunden und die Admin-App von Restaurantmitarbeitern verwendet. Zu den Hauptfunktionen der Client-App gehören die Online-Bestellung von Lebensmitteln, die Verfolgung des Bestellstatus, Feedback und Bewertungen, die Profilverwaltung und die Rechnungsverwaltung. Als Hauptfunktionalitäten in der Admin-App umfasst sie Auftragsverwaltung, Kundenverwaltung, Mitarbeiterverwaltung, Bestandsverwaltung, Verwaltung von Lebensmitteln und Kategorien sowie die Erstellung von Power Bi-Berichten.",
+      "images": [
+        "images/portfolio/burger-res/pic (1).png",
+        "images/portfolio/burger-res/pic (3).png",
+        "images/portfolio/burger-res/pic (4).png",
+        "images/portfolio/burger-res/pic (5).png",
+        "images/portfolio/burger-res/pic (6).png",
+        "images/portfolio/burger-res/pic (7).png",
+        "images/portfolio/burger-res/pic (8).png",
+        "images/portfolio/burger-res/pic (9).png",
+        "images/portfolio/burger-res/pic (10).png",
+        "images/portfolio/burger-res/pic (11).png",
+        "images/portfolio/burger-res/pic (12).png",
+        "images/portfolio/burger-res/pic (13).png",
+        "images/portfolio/burger-res/pic (14).png",
+        "images/portfolio/burger-res/pic (15).png",
+        "images/portfolio/burger-res/pic (16).png",
+        "images/portfolio/burger-res/pic (17).png",
+        "images/portfolio/burger-res/pic (18).png",
+        "images/portfolio/burger-res/pic (19).png",
+        "images/portfolio/burger-res/pic (20).png",
+        "images/portfolio/burger-res/pic (21).png",
+        "images/portfolio/burger-res/pic (22).png",
+        "images/portfolio/burger-res/pic (23).png",
+        "images/portfolio/burger-res/pic (24).png",
+        "images/portfolio/burger-res/pic (25).png",
+        "images/portfolio/burger-res/pic (26).png",
+        "images/portfolio/burger-res/pic (27).png",
+        "images/portfolio/burger-res/pic (28).png",
+        "images/portfolio/burger-res/pic (29).png",
+        "images/portfolio/burger-res/pic (30).png",
+        "images/portfolio/burger-res/pic (31).png",
+        "images/portfolio/burger-res/pic (33).png",
+        "images/portfolio/burger-res/pic (33).png",
+        "images/portfolio/burger-res/pic (34).png",
+        "images/portfolio/burger-res/pic (35).png",
+        "images/portfolio/burger-res/pic (36).png",
+        "images/portfolio/burger-res/pic (37).png",
+        "images/portfolio/burger-res/pic (38).png"
+      ],
+      "url": "https://github.com/kasintha98/Burger-Freakz-Restaurent-Web-System-MERN.git",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain-wordmark",
+          "name": "Node JS"
+        },
+        {
+          "class": "devicon-express-original-wordmark",
+          "name": "Express JS"
+        },
+        {
+          "class": "devicon-mongodb-plain-wordmark",
+          "name": "MongoDB"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Email and Newsletter Automation System",
+      "startDate": "2022",
+      "description": "E-Mail- und Newsletter-Automatisierungstool für einen deutschen Kunden zur Verwaltung seiner Kunden und Newsletter. Als Hauptfunktionalitäten umfasst dies Newsletter-Design mit Stripo, Newsletter-Planung, Newsletter-Workflow-Management, Newsletter-E-Mail-Statusverfolgung und Verwaltung von Newsletter-Abonnenten.",
+      "images": [
+        "images/portfolio/email-saas/pic (1).png",
+        "images/portfolio/email-saas/pic (2).png",
+        "images/portfolio/email-saas/pic (3).png",
+        "images/portfolio/email-saas/pic (4).png",
+        "images/portfolio/email-saas/pic (5).png",
+        "images/portfolio/email-saas/pic (6).png",
+        "images/portfolio/email-saas/pic (7).png",
+        "images/portfolio/email-saas/pic (8).png",
+        "images/portfolio/email-saas/pic (9).png",
+        "images/portfolio/email-saas/pic (10).png"
+      ],
+      "url": "https://email-saas-tool.herokuapp.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain-wordmark",
+          "name": "Node JS"
+        },
+        {
+          "class": "devicon-express-original-wordmark",
+          "name": "Express JS"
+        },
+        {
+          "class": "devicon-mongodb-plain-wordmark",
+          "name": "MongoDB"
+        }
+      ]
+    },
+    {
+      "title": "E-Commerce Business System",
+      "startDate": "2021",
+      "description": "Ein E-Commerce Business System für einen deutschen Kunden. Dieses System enthält die Geschäftsdetails, Produkte und Jobs des Kunden. Als Hauptfunktionalitäten umfasst dieses System Kundenregistrierung/-anmeldung, App Store, Produktkauf, Kontakt und Suche.",
+      "images": [
+        "images/portfolio/flumina/pic (1).png",
+        "images/portfolio/flumina/pic (2).png",
+        "images/portfolio/flumina/pic (3).png",
+        "images/portfolio/flumina/pic (4).png",
+        "images/portfolio/flumina/pic (5).png",
+        "images/portfolio/flumina/pic (6).png"
+      ],
+      "url": "https://flumina.de",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML 5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS 3"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-php-plain",
+          "name": "PHP"
+        },
+        {
+          "class": "devicon-mysql-plain",
+          "name": "MySQL"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Freelance - Upwork/ Fiverr",
+      "title": "Full Stack Developer",
+      "years": "4.2021 - present",
+      "mainTech": ["React"],
+      "technologies": [
+        "React JS",
+        "MongoDB",
+        "Express JS",
+        "Node JS",
+        "Bootstrap",
+        "React Bootstrap"
+      ]
+    },
+    {
+      "company": "CodeGen International (Pvt) Ltd",
+      "title": "Trainee Software Engineer",
+      "years": "08.2021 - 02.2022",
+      "mainTech": ["Java"],
+      "technologies": ["Java", "Springboot", "Python", "Rasa"]
+    }
+  ]
+}

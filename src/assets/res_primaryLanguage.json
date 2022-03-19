@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello",
-    "description": "👋 I'm Kasintha Kalhara, a tech enthusiast who is excited to seek knowledge of new technologies, eagerly looking for an environment to benefit the organization and himself through commitment. Thank you 💜",
+    "description": "👋 I'm Kasintha Kalhara, a tech enthusiast who is excited to seek knowledge of new technologies, eagerly looking for an environment to benefit the organization and himself through commitment. I'm interested in Software Engineering, Full Stack Development, and Frontend Development. Thank you 💜",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -13,7 +13,7 @@
     {
       "title": "Restaurant Management System",
       "startDate": "2021",
-      "description": "A fully functional Restaurant Management System for Burger Freakz Restaurant. This system mainly has two sub systems as client app and admin app. Client app is used by the customers and admin app is used by restaurant's employees. As main functionalities of the client app includes online food ordering, order status tracking, feedback and ratings, profile management and bills management. As main functionalities in the admin app, it includes orders management, customers management, employees management, stocks management, food products and categories management and Power Bi reports generation.",
+      "description": "A fully functional Restaurant Management System for Burger Freakz Restaurant. This system mainly has two sub-systems as client app and admin app. The client app is used by the customers and the admin app is used by restaurant employees. As main functionalities of the client app include online food ordering, order status tracking, feedback and ratings, profile management, and bills management. As main functionalities in the admin app, it includes orders management, customers management, employees management, stocks management, food products, and categories management, and Power Bi reports generation.",
       "images": [
         "images/portfolio/burger-res/pic (1).png",
         "images/portfolio/burger-res/pic (3).png",
@@ -76,7 +76,7 @@
     {
       "title": "Email and Newsletter Automation System",
       "startDate": "2022",
-      "description": "Email and Newsletter automation tool build for a German client to manage their customers and newsletters. As main functionalities this includes newsletter design with Stripo, newsletter schedule, newsletter workflow management, newsletter email status tracking, and manage newsletter subscribers.",
+      "description": "Email and Newsletter automation tool build for a German client to manage their customers and newsletters. As main functionalities, this includes newsletter design with Stripo, newsletter schedule, newsletter workflow management, newsletter email status tracking, and managing newsletter subscribers.",
       "images": [
         "images/portfolio/email-saas/pic (1).png",
         "images/portfolio/email-saas/pic (2).png",
@@ -112,7 +112,7 @@
     {
       "title": "E-Commerce Business System",
       "startDate": "2021",
-      "description": "An E-Commerce Business System for a German client. This system includes client's business details, products and jobs. As  main functionalities this system includes customer register/login, app store, product purchase, contact and search.",
+      "description": "An E-Commerce Business System for a German client. This system includes the client's business details, products, and jobs. As main functionalities, this system includes customer register/login, app store, product purchase, contact, and search.",
       "images": [
         "images/portfolio/flumina/pic (1).png",
         "images/portfolio/flumina/pic (2).png",
